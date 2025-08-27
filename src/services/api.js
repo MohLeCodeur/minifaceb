@@ -2,7 +2,7 @@ import axios from 'axios';
 
 // Crée une instance d'axios avec la configuration de base
 const api = axios.create({
-    baseURL: 'http://localhost/digital/api', // Adaptez l'URL à votre configuration
+    baseURL: 'https://net.mohlecodeur.com/api', // Adaptez l'URL à votre configuration
     withCredentials: true // Très important pour que les sessions/cookies fonctionnent
 });
 
